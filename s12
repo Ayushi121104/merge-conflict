@@ -15,11 +15,11 @@ int main()
     complex a, b, sum;
  
     // First complex number
-    a.real = 2;
-    a.img = 3;
+    a.real = 9;
+    a.img = 8;
  
     // Second complex number
-    b.real = 4;
+    b.real = 7;
     b.img = 5;
  
     // Print first complex number
@@ -28,12 +28,8 @@ int main()
     // print second complex number
     printf("\n b = %d + %di", b.real, b.img);
  
-    // call add(a,b) function and
-    // pass complex numbers a & b
-    // as an parameter.
-    sum = add(a, b);
- 
-    // Print result
+
+    sum = add(a, b)
     printf("\n sum = %d + %di", sum.real, sum.img);
  
     return 0;
