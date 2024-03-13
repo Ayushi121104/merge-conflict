@@ -2,9 +2,7 @@
  
 
 typedef struct complexNumber {
-    int real;
-    int img;
-} complex;
+    in
  
 complex add(complex x, complex y);
  
